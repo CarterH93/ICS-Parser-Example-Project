@@ -11,6 +11,18 @@
 		BC2DA6152932776F0061F7E0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2DA6142932776F0061F7E0 /* ContentView.swift */; };
 		BC2DA617293277700061F7E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC2DA616293277700061F7E0 /* Assets.xcassets */; };
 		BC2DA61B293277700061F7E0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC2DA61A293277700061F7E0 /* Preview Assets.xcassets */; };
+		BC2DA62B293277950061F7E0 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2DA6212932778F0061F7E0 /* Date.swift */; };
+		BC2DA62C293277950061F7E0 /* Calendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2DA6222932778F0061F7E0 /* Calendar.swift */; };
+		BC2DA62D293277950061F7E0 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2DA623293277900061F7E0 /* Event.swift */; };
+		BC2DA62E293277950061F7E0 /* IcsElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2DA624293277910061F7E0 /* IcsElement.swift */; };
+		BC2DA62F293277950061F7E0 /* Alarm.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2DA625293277910061F7E0 /* Alarm.swift */; };
+		BC2DA630293277950061F7E0 /* CalendarComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2DA626293277920061F7E0 /* CalendarComponent.swift */; };
+		BC2DA631293277950061F7E0 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2DA627293277930061F7E0 /* String.swift */; };
+		BC2DA632293277950061F7E0 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2DA628293277940061F7E0 /* Parser.swift */; };
+		BC2DA633293277950061F7E0 /* iCal.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2DA629293277940061F7E0 /* iCal.swift */; };
+		BC2DA634293277950061F7E0 /* iCalError.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2DA62A293277950061F7E0 /* iCalError.swift */; };
+		BC2DA637293278DF0061F7E0 /* SchoolAssignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2DA636293278DF0061F7E0 /* SchoolAssignment.swift */; };
+		BC2DA639293286E50061F7E0 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2DA638293286E50061F7E0 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +32,18 @@
 		BC2DA616293277700061F7E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC2DA618293277700061F7E0 /* ICS_Parser_Example_Project.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ICS_Parser_Example_Project.entitlements; sourceTree = "<group>"; };
 		BC2DA61A293277700061F7E0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BC2DA6212932778F0061F7E0 /* Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		BC2DA6222932778F0061F7E0 /* Calendar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Calendar.swift; sourceTree = "<group>"; };
+		BC2DA623293277900061F7E0 /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		BC2DA624293277910061F7E0 /* IcsElement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IcsElement.swift; sourceTree = "<group>"; };
+		BC2DA625293277910061F7E0 /* Alarm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alarm.swift; sourceTree = "<group>"; };
+		BC2DA626293277920061F7E0 /* CalendarComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarComponent.swift; sourceTree = "<group>"; };
+		BC2DA627293277930061F7E0 /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		BC2DA628293277940061F7E0 /* Parser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
+		BC2DA629293277940061F7E0 /* iCal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iCal.swift; sourceTree = "<group>"; };
+		BC2DA62A293277950061F7E0 /* iCalError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iCalError.swift; sourceTree = "<group>"; };
+		BC2DA636293278DF0061F7E0 /* SchoolAssignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolAssignment.swift; sourceTree = "<group>"; };
+		BC2DA638293286E50061F7E0 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +76,11 @@
 		BC2DA6112932776F0061F7E0 /* ICS Parser Example Project */ = {
 			isa = PBXGroup;
 			children = (
+				BC2DA635293277BF0061F7E0 /* ICS PARSER */,
 				BC2DA6122932776F0061F7E0 /* ICS_Parser_Example_ProjectApp.swift */,
+				BC2DA636293278DF0061F7E0 /* SchoolAssignment.swift */,
 				BC2DA6142932776F0061F7E0 /* ContentView.swift */,
+				BC2DA638293286E50061F7E0 /* DetailView.swift */,
 				BC2DA616293277700061F7E0 /* Assets.xcassets */,
 				BC2DA618293277700061F7E0 /* ICS_Parser_Example_Project.entitlements */,
 				BC2DA619293277700061F7E0 /* Preview Content */,
@@ -67,6 +94,23 @@
 				BC2DA61A293277700061F7E0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BC2DA635293277BF0061F7E0 /* ICS PARSER */ = {
+			isa = PBXGroup;
+			children = (
+				BC2DA626293277920061F7E0 /* CalendarComponent.swift */,
+				BC2DA6212932778F0061F7E0 /* Date.swift */,
+				BC2DA623293277900061F7E0 /* Event.swift */,
+				BC2DA629293277940061F7E0 /* iCal.swift */,
+				BC2DA62A293277950061F7E0 /* iCalError.swift */,
+				BC2DA624293277910061F7E0 /* IcsElement.swift */,
+				BC2DA628293277940061F7E0 /* Parser.swift */,
+				BC2DA627293277930061F7E0 /* String.swift */,
+				BC2DA625293277910061F7E0 /* Alarm.swift */,
+				BC2DA6222932778F0061F7E0 /* Calendar.swift */,
+			);
+			name = "ICS PARSER";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,7 +184,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC2DA6152932776F0061F7E0 /* ContentView.swift in Sources */,
+				BC2DA637293278DF0061F7E0 /* SchoolAssignment.swift in Sources */,
+				BC2DA62B293277950061F7E0 /* Date.swift in Sources */,
+				BC2DA639293286E50061F7E0 /* DetailView.swift in Sources */,
+				BC2DA633293277950061F7E0 /* iCal.swift in Sources */,
+				BC2DA632293277950061F7E0 /* Parser.swift in Sources */,
+				BC2DA62E293277950061F7E0 /* IcsElement.swift in Sources */,
+				BC2DA634293277950061F7E0 /* iCalError.swift in Sources */,
+				BC2DA631293277950061F7E0 /* String.swift in Sources */,
 				BC2DA6132932776F0061F7E0 /* ICS_Parser_Example_ProjectApp.swift in Sources */,
+				BC2DA62C293277950061F7E0 /* Calendar.swift in Sources */,
+				BC2DA62F293277950061F7E0 /* Alarm.swift in Sources */,
+				BC2DA62D293277950061F7E0 /* Event.swift in Sources */,
+				BC2DA630293277950061F7E0 /* CalendarComponent.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
