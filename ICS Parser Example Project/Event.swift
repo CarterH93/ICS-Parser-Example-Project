@@ -29,16 +29,18 @@ extension Event: CalendarComponent {
         var str: [String: String] = ["BEGIN":"VEVENT"]
 
         if let uid = uid {
-            str["UID"] = "\(uid)\n"
+            str["UID"] = "\(uid)"
         }
         if let dtstamp = dtstamp {
             str["DTSTAMP"] = "\(dtstamp.toString())"
         }
         if let summary = summary {
-            str["SUMMARY"] = "\((summary.replacingOccurrences(of: #"\n"#, with: " ")).replacingOccurrences(of: #"\,"#, with: ","))"
+            //replacingOccurrences are to fix formatting issues
+            str["SUMMARY"] = "\((summary.replacingOccurrences(of: #"\n"#, with: " ")).replacingOccurrences(of: #"\,"#, with: ",").replacingOccurrences(of: #"*"#, with: ""))"
         }
         if let descr = descr {
-            str["DESCRIPTION"] = "\((descr.replacingOccurrences(of: #"\n"#, with: "\n")).replacingOccurrences(of: #"\,"#, with: ","))"
+            //replacingOccurrences are to fix formatting issues
+            str["DESCRIPTION"] = "\((descr.replacingOccurrences(of: #"\n"#, with: "\n")).replacingOccurrences(of: #"\,"#, with: ",").replacingOccurrences(of: #"* "#, with: "●").replacingOccurrences(of: #"*"#, with: ""))"
         }
         if let dtstart = dtstart {
             str["DTSTART"] = "\(dtstart.toString())"

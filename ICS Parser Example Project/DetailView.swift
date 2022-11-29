@@ -7,7 +7,6 @@
 
 import SwiftUI
 
-let special = #"\n"#
 
 struct DetailView: View {
     
