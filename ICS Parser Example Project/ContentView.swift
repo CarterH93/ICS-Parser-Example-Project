@@ -34,12 +34,18 @@ struct ContentView: View {
                                 }
                                 
                             }
+                            //REPLACE THIS
+                            //IOS 17 allows for a better way of scrolling to bottom of list
+                            //https://www.hackingwithswift.com/quick-start/swiftui/how-to-make-a-scrollview-start-at-the-bottom
                             .id(listOfAssignments.firstIndex(of: item)!)
                             
                             
                             
                         }
                     }
+                    //REPLACE THIS
+                    //IOS 17 allows for a better way of scrolling to bottom of list
+                    //https://www.hackingwithswift.com/quick-start/swiftui/how-to-make-a-scrollview-start-at-the-bottom
                     .onChange(of: scroll) { _ in
                         proxy.scrollTo(listOfAssignments.count - 1)
                     }
