@@ -18,4 +18,8 @@ extension String {
         return iCal.dateFormatter.date(from: self)
     }
     
+    func toDateAlllDay() -> Date? {
+        return iCal.dateFormatterAllDay.date(from: self)
+    }
+    
 }

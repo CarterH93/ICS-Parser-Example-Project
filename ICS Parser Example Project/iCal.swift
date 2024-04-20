@@ -41,4 +41,15 @@ public enum iCal {
         return dateFormatter
     }()
     
+    
+    static let dateFormatterAllDay: DateFormatter = {
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "yyyyMMdd'T'HHmmss'Z'"
+        
+        //Uses local timezone. This makes it due at the end of the day in the persons time zone. (Default for all-day events)
+        dateFormatter.timeZone = .current
+        return dateFormatter
+        
+    }()
+    
 }
