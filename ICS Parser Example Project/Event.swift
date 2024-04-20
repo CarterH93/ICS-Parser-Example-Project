@@ -74,9 +74,9 @@ extension Event: IcsElement {
         case "DTEND;VALUE=DATE-TIME":
             dtend = value.toDate()
         case "DTSTART;VALUE=DATE":
-            dtstart = String("\(value)T050000Z").toDate()
+            dtstart = String("\(Int(value)!+1)T035900Z").toDate()
         case "DTEND;VALUE=DATE":
-            dtend = String("\(value)T050000Z").toDate()
+            dtend = String("\(Int(value)!+1)T035900Z").toDate()
         // case "ORGANIZER":
         //     organizer
         case "SUMMARY":
