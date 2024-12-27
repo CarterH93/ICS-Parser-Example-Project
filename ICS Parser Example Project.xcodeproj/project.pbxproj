@@ -44,6 +44,7 @@
 		BC2DA62A293277950061F7E0 /* iCalError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iCalError.swift; sourceTree = "<group>"; };
 		BC2DA636293278DF0061F7E0 /* SchoolAssignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolAssignment.swift; sourceTree = "<group>"; };
 		BC2DA638293286E50061F7E0 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		BCC0D33D2D1E67C10072A6FB /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +61,7 @@
 		BC2DA6062932776F0061F7E0 = {
 			isa = PBXGroup;
 			children = (
+				BCC0D33D2D1E67C10072A6FB /* README.md */,
 				BC2DA6112932776F0061F7E0 /* ICS Parser Example Project */,
 				BC2DA6102932776F0061F7E0 /* Products */,
 			);
